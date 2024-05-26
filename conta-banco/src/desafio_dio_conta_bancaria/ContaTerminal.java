@@ -12,6 +12,8 @@ public class ContaTerminal {
 		String nomeCliente;
 		double saldo;
 
+	//exibir mensagens para os usuarios 	
+		
 		System.out.println("CONTA BANCÁRIA");
 		System.out.println();
 		System.out.println("Por favor, digite o número da Conta: (0820)");
@@ -27,6 +29,8 @@ public class ContaTerminal {
 		System.out.println("Agora me informa seu saldo atual: ");
 		saldo = sc.nextDouble();
 
+
+		//exibir a mensagem conta criada 
 		System.out.println();
 		System.out.printf("Olá %s, obrigado por criar uma conta em "
 				+ "nosso banco, sua agência é %s, "
