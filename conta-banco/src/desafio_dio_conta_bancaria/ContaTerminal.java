@@ -12,7 +12,7 @@ public class ContaTerminal {
 		String nomeCliente;
 		double saldo;
 
-		System.out.println("---------------CONTA BANCÁRIA---------------");
+		System.out.println("CONTA BANCÁRIA");
 		System.out.println();
 		System.out.println("Por favor, digite o número da Conta: (0820)");
 		numero = sc.nextInt();
